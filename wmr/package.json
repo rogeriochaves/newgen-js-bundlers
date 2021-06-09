@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "wmr",
+    "build": "wmr build",
+    "serve": "wmr serve"
+  },
+  "eslintConfig": {
+    "extends": "preact"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom": "preact/compat"
+  },
+  "dependencies": {
+    "preact": "^10.5.13",
+    "preact-iso": "^2.0.2"
+  },
+  "devDependencies": {
+    "wmr": "^2.2.2"
+  }
+}
